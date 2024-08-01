@@ -1,0 +1,137 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.oll-element {
+  position: relative;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/36613051142_45a0ffe3b0_o.jpg);
+}
+
+.sun {
+  position: absolute;
+  top: 250px;
+  left: 650px;
+  border-radius: 50%;
+}
+.sun-1 {
+  width: 250px;
+  animation: sun 20s infinite linear;
+}
+
+@keyframes sun {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+.oll-element .earth {
+}
+
+.earth {
+  position: absolute;
+  left: 700px;
+  top: 250px;
+  animation: earth 10s infinite linear;
+  border-radius: 50%;
+}
+.earth-1 {
+  width: 100px;
+}
+@keyframes earth {
+  0% {
+    transform: rotateZ(0deg) translateX(360px);
+  }
+  100% {
+    transform: rotateZ(360deg) translateX(360px);
+  }
+}
+
+.saturn {
+  position: absolute;
+  left: 800px;
+  top: 350px;
+  animation: saturn 30s infinite linear;
+  border-radius: 50%;
+}
+
+.saturn-1 {
+  width: 70px;
+}
+@keyframes saturn {
+  0% {
+    transform: rotateZ(0deg) translateX(360px);
+  }
+  100% {
+    transform: rotateZ(360deg) translateX(360px);
+  }
+}
+
+.mars {
+  position: absolute;
+  left: 900px;
+  top: 350px;
+  animation: mars 60s infinite linear;
+  border-radius: 50%;
+}
+.mars-1 {
+  width: 90px;
+}
+
+@keyframes mars {
+  0% {
+    transform: rotateZ(0deg) translateX(360px);
+  }
+  100% {
+    transform: rotateZ(360deg) translateX(360px);
+  }
+}
+.yptr {
+  position: absolute;
+  left: 900px;
+  top: 300px;
+  animation: yptr 50s infinite linear;
+  border-radius: 50%;
+}
+
+.yptr-1 {
+  width: 60px;
+}
+
+@keyframes yptr {
+  0% {
+    transform: rotateZ(0deg) translateX(360px);
+  }
+  100% {
+    transform: rotateZ(360deg) translateX(360px);
+  }
+}
+
+.pltn {
+  position: absolute;
+  left: 800px;
+  top: 330px;
+  animation: pltn 5s infinite linear;
+  border-radius: 50%;
+}
+
+.pltn-1 {
+  width: 50px;
+}
+
+@keyframes pltn {
+  0% {
+    transform: rotateZ(0deg) translateX(360px);
+  }
+  100% {
+    transform: rotateZ(360deg) translateX(360px);
+  }
+}
